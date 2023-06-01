@@ -43,8 +43,8 @@ app.all(
   ) => {
     function get(res: Response<MakeTransactionGetResponse>) {
       res.status(200).json({
-        label: "Gasless POAP", // replace with your title
-        icon: "https://res.cloudinary.com/dtzqgftjk/image/upload/v1669972940/2_cdaoyi_1_somgup.png", // replace with your image link
+        label: "Lollypop Galaxy", // replace with your title
+        icon: "https://res.cloudinary.com/dnjbui12k/image/upload/v1685615983/Lollipop_galaxy_ffe6v1.jpg", // replace with your image link
       });
     }
 
